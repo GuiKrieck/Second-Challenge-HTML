@@ -1,0 +1,235 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#body{
+    height: 100vh;
+}
+.wrapper {
+    width: 100vw;
+    display: flex;
+    margin: 0 auto;
+    background-color: #caefe2;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    display: flex;
+    justify-content: left;
+    width: 15%;
+    background-color: rgb(101, 238, 238);
+    padding: 10px 15px 0px 0px;
+}
+
+.menu>ul{
+    font-size: 24px;
+    margin-top: 10rem;
+    width: 12%;
+    position: fixed;
+
+}
+
+.menu>ul>li{
+    padding: 1rem;    
+}
+
+.menu>ul>li>a:hover{
+    color: #969393;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #57cff1;
+}
+
+.header>img{
+    width: 120px;
+    height: auto;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+.header>h1{
+    color: white;
+    margin-left: 2rem;
+    font-size: 60px;
+}
+
+#content{
+    height: 100%;
+}
+.content {
+
+    background-color: #beeffc;
+    min-height: 300px;
+    height: 75%;
+}
+
+.content__presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+}
+
+.content__nutritionist, .content__about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+    padding: 0 2%;
+    background-color: #9be9f5;
+}
+
+.content__nutritionist>div, .content__about-us>div{
+    font-size: 20px;
+    text-align: justify;
+}
+.content__nutritionist>span>img{
+    width: 90%;
+}
+
+.content__psychologist{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 50px;
+    padding: 0 2%;
+}
+
+.content__psychologist>div{
+    font-size: 20px;
+    text-align: justify;
+}
+.content__psychologist>span>img{
+    width: 115%;
+}
+
+.content__trainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 90px;
+    padding: 0 2%;
+    background-color: #9be9f5;
+}
+
+.content__trainer>div{
+    font-size: 20px;
+    text-align: justify;
+}
+.content__trainer>span>img{
+    width: 90%;
+}
+
+
+.footer {
+    background-color: #caefe2;
+    display: flex;
+    justify-content: left;
+    gap: 80px;
+}
+
+.footer>div{
+    margin-left: 5%;
+}
+
+.footer>div>span{
+    font-size: 20px;
+}
+#footer{
+    width: 85%;
+    position: fixed;
+    bottom: 0;
+}
+
+#footer__p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* these styles are for about page */
+.content__instalations>h2{
+    margin-left: 1%;
+}
+.content__instalations__imgs{
+    display: flexbox;
+    background-color: #beeffc;
+}
+
+.content__instalations__imgs>img{
+    width: 600px;
+    margin: 3%;
+}
+
+/* these styles are for serviceHours page */
+
+.content__table{
+    margin-left: 2%;
+}
+
+.content__table > p {
+    font-weight: bold;
+}
+
+/* these styles are for Contact page */
+
+.contact > fieldset{
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #9be9f5;
+    margin-bottom: 2%;
+}
+.contact-form > input, .contact-form > textarea {
+    margin-bottom: 1%;
+    width: 50%;
+}
+
+.contact-form> div> button:hover{
+    background-color: darkgray;
+}
+
+.contact-form> div{
+    display: flex;
+    gap: 30px;
+}
+
+.contact-form> div> button{
+    font-size: 16px;
+    width: 10rem;
+    height: 1.5rem;
+}
+
+.different-bgcolor{
+    background-color: #9be9f5;
+}
+
